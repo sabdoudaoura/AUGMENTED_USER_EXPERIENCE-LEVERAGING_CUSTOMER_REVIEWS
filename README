@@ -35,3 +35,8 @@ To analyze a new dataset of user reviews, place your dataset in the data directo
 Run the project to process the data and generate reports and visualizations.
 Author
 This project is authored by @sabdoudaoura. Feel free to reach out for any questions, suggestions, or collaborations.
+
+
+git remote add origin 'url_of_your_github_project'
+
+git push -u origin master
