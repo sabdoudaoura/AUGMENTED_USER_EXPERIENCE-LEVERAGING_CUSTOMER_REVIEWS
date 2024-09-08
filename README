@@ -5,38 +5,13 @@ The primary objective of this project is to explore and analyze the potential of
 ## Description
 User reviews contain valuable information that can be mined to understand user sentiments, preferences, and pain points. This project focuses on:
 
-Data Collection: Gathering a comprehensive dataset of user reviews from various sources.
-Data Analysis: Applying natural language processing (NLP) techniques to analyze the sentiment, topics, and key phrases in the reviews.
-Augmentation Strategies: Identifying how insights from reviews can be used to inform product development, enhance user interfaces, and create more personalized user experiences.
-Features
-Sentiment analysis to categorize reviews as positive, negative, or neutral.
-Topic modeling to uncover common themes and topics discussed by users.
-Data visualization to present findings in an intuitive and actionable manner.
-Recommendations for augmenting user experience based on review data analysis.
-Installation
-Clone the repository:
+**Data Analysis:** Quantitative analysis of the dataset
+**Augmentation Strategies:** Identifying how insights from reviews can be used to inform product development, enhance user interfaces, and create more personalized user experiences. It is divided into two main parts. In the first part, we will detect relevant topics from reviews, and in the second part, we will extract spans associated with each topic in the reviews.
 
-bash
-Copier le code
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-Install the required dependencies:
+## installation
+Install the requirement files with this command : pip install -r requirements.txt
+Download the dataset : https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
+Run the notebook
 
-bash
-Copier le code
-pip install -r requirements.txt
-Run the project:
-
-bash
-Copier le code
-python main.py
-Usage
-To analyze a new dataset of user reviews, place your dataset in the data directory and configure the analysis parameters in config.json.
-Run the project to process the data and generate reports and visualizations.
-Author
+## Author
 This project is authored by @sabdoudaoura. Feel free to reach out for any questions, suggestions, or collaborations.
-
-
-git remote add origin 'url_of_your_github_project'
-
-git push -u origin master
